@@ -9,7 +9,7 @@ class PlacesApi extends GoogleWebService {
     bool debug = false,
     String? apiKey,
   }) : super(
-          baseUri: Uri.https('maps.googleapis.com'),
+          baseUri: Uri.https('https://cors-anywhere.herokuapp.com/https://maps.googleapis.com'),
           serviceName: 'NovaPlacesApi',
           debug: debug,
           apiKey: apiKey,
